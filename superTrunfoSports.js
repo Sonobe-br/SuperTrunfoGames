@@ -1,48 +1,43 @@
 let carta1 = {
-    nome: "Vincent Luis",
+    nome: "Vincent Luis * FR",
     imagem: "https://www.slowtwitch.com/articles/images/8/199958-largest_VincentLuis_Wins_.jpg",
     atributos: {
-        natação: 10,
-        ciclismo: 8,
-        corrida: 9
+        swimming: 10,
+        cycling: 8,
+        running: 9
 
     } 
 };
 
 let carta2 = {
-    nome: "Guilherme Gil",
-    imagem:"https://pbs.twimg.com/profile_images/673496079565004800/dOsTMgbu_400x400.jpg",
+    nome: "Luisa Baptista * BR",
+    imagem:"https://cronos-media.sesisenaisp.org.br//api/media/1-0/files?img=img_64_201110_b11ff7a5-fcf1-4fe2-89fe-cdb60c95f09d_o.jpg&tipo=m",
     atributos: {
-        natação: 8,
-        ciclismo: 9,
-        corrida: 10
-
+        swimming: 8,
+        cycling: 9,
+        running: 10
     } 
 };
 
 let carta3 = {
-    nome: "Alistar Brownlee",
+    nome: "Alistar Brownlee * UK",
     imagem:"https://www.yorkshirepost.co.uk/images-a.jpimedia.uk/imagefetch/http://www.lep.co.uk/webimage/Prestige.Item.1.108967012!image/image.jpg?width=640",
     atributos: {
-        natação: 10,
-        ciclismo: 8,
-        corrida: 10
-
+        swimming: 10,
+        cycling: 8,
+        running: 10
     } 
 };
 
 let carta4 = {
-    nome: "Manoel Messias",
+    nome: "Manoel Messias * BR",
     imagem:"https://dhojeinterior.com.br/wp-content/uploads/2019/11/manoel-messias-copa-do-mundo-ouro-triatlo.jpg",
     atributos: {
-        natação: 8,
-        ciclismo: 9,
-        corrida: 10
-
+        swimming: 8,
+        cycling: 9,
+        running: 10
     } 
 };
-
-
 
 let cartas = [carta1,carta2,carta3, carta4];
 let cartaMaquina;

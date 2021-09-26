@@ -35,11 +35,11 @@ button{
     width: 150px;
     margin: 50px;
     left: 523px;
-    top: -455px;
+    top: -530px;
 }
 
 h2{
-    color: white;
+    color:#ffffff;
 }
 
 #carta-jogador, #carta-maquina{
@@ -49,7 +49,7 @@ h2{
     border-radius: 10px;
     margin-bottom: 20px;
     margin: 0 auto;
-    top: -190px;
+    top: -410px;
     display: flex;
     align-items: flex-end;
     position: relative;
@@ -96,7 +96,7 @@ h2{
     background-color: black;
     border-radius: 5px;
     position: relative;
-    top: -680px;
+    top: -880px;
     float: inline-end;
     opacity: 50%;
     font-style: oblique;
@@ -115,6 +115,7 @@ form{
     display: flex;
     justify-content: space-between;
     width: 100%;
+    top: -980px;
 }
 
 .carta-subtitle{
