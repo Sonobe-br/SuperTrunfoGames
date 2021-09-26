@@ -1,5 +1,5 @@
 let carta1 = {
-    nome: "Vincent Luis * FR",
+    nome: "Vincent Luis FR",
     imagem: "https://www.slowtwitch.com/articles/images/8/199958-largest_VincentLuis_Wins_.jpg",
     atributos: {
         swimming: 10,
@@ -10,7 +10,7 @@ let carta1 = {
 };
 
 let carta2 = {
-    nome: "Luisa Baptista * BR",
+    nome: "Luisa Baptista BR",
     imagem:"https://cronos-media.sesisenaisp.org.br//api/media/1-0/files?img=img_64_201110_b11ff7a5-fcf1-4fe2-89fe-cdb60c95f09d_o.jpg&tipo=m",
     atributos: {
         swimming: 8,
@@ -20,7 +20,7 @@ let carta2 = {
 };
 
 let carta3 = {
-    nome: "Alistar Brownlee * UK",
+    nome: "Alistar Brownlee UK",
     imagem:"https://www.yorkshirepost.co.uk/images-a.jpimedia.uk/imagefetch/http://www.lep.co.uk/webimage/Prestige.Item.1.108967012!image/image.jpg?width=640",
     atributos: {
         swimming: 10,
@@ -30,7 +30,7 @@ let carta3 = {
 };
 
 let carta4 = {
-    nome: "Manoel Messias * BR",
+    nome: "Manoel Messias BR",
     imagem:"https://dhojeinterior.com.br/wp-content/uploads/2019/11/manoel-messias-copa-do-mundo-ouro-triatlo.jpg",
     atributos: {
         swimming: 8,
@@ -39,18 +39,58 @@ let carta4 = {
     } 
 };
 
-let cartas = [carta1,carta2,carta3, carta4];
+let carta5 = {
+    nome: "Kristian Blummenfelt NO",
+    imagem:"https://i0.wp.com/www.trisportmag.com.br/wp-content/uploads/2021/05/186472558_10162159923734572_5802056187184303779_n.jpg?fit=1629%2C1084&ssl=1",
+    atributos: {
+        swimming: 10,
+        cycling: 8,
+        running: 10
+    }
+}
+
+let carta6 = {
+    nome: "Javier Gomes Noya ESP",
+    imagem:"https://www.mundotri.com.br/wp-content/uploads/2015/08/gomezstockholmwin.jpg",
+    atributos: {
+        swimming: 9,
+        cycling: 10,
+        running: 9
+    }
+}
+
+let carta7 = {
+    nome: "Vittoria Lopes BR",
+    imagem:"https://agenciaolimpica.com.br/wp-content/uploads/2019/08/Vittoria-Lopes-Leeds-2.jpg",
+    atributos: {
+        swimming: 9,
+        cycling: 8,
+        running: 10
+    }
+}
+
+let carta8 = {
+    nome: "Pâmela Oliveira BR",
+    imagem:"http://midias.gazetaonline.com.br/_midias/jpg/2014/12/16/pamela_oliveira_triathlon_org_-1552131.jpg",
+    atributos: {
+        swimming: 10,
+        cycling: 9,
+        running: 9
+    }
+}
+
+let cartas = [carta1,carta2,carta3, carta4, carta5, carta6, carta7, carta8];
 let cartaMaquina;
 let cartaJogador;
 
 function sortearCarta(){
-    let numeroCartaMaquina = parseInt(Math.random() * 4);
+    let numeroCartaMaquina = parseInt(Math.random() * 8);
     cartaMaquina = cartas[numeroCartaMaquina];
     console.log(cartaMaquina);
 
-    let numeroCartaJogador = parseInt(Math.random() * 4);
+    let numeroCartaJogador = parseInt(Math.random() * 8);
     while(numeroCartaMaquina == numeroCartaJogador){
-        numeroCartaJogador = parseInt(Math.random() * 4);
+        numeroCartaJogador = parseInt(Math.random() * 8);
     }
 
     cartaJogador = cartas[numeroCartaJogador];
