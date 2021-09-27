@@ -53,13 +53,13 @@ h2{
     border-radius: 10px;
     margin-bottom: 20px;
     margin: 0 auto;
-    top: -485px;
+    top: -190px;
     display: flex;
     align-items: flex-end;
     position: relative;
     background-size: 350px 300px;
     background-repeat: no-repeat;
-    background-position-x: 100px;
+    background-position-x: 5px;
     background-position-y: 10px;
     border-radius: 33px;
 }
