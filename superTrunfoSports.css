@@ -27,6 +27,8 @@ button{
     font-size: 1rem;
     margin-bottom: 3px;
     width: 150px;
+    position: relative;
+    top: -50px;
 }
 
 .button-jogar{
@@ -35,11 +37,13 @@ button{
     width: 150px;
     margin: 50px;
     left: 523px;
-    top: -530px;
+    top: -570px;
 }
 
 h2{
     color:#ffffff;
+    position: relative;
+    top: -40px;
 }
 
 #carta-jogador, #carta-maquina{
@@ -49,13 +53,13 @@ h2{
     border-radius: 10px;
     margin-bottom: 20px;
     margin: 0 auto;
-    top: -410px;
+    top: -485px;
     display: flex;
     align-items: flex-end;
     position: relative;
     background-size: 350px 300px;
     background-repeat: no-repeat;
-    background-position-x: 5px;
+    background-position-x: 100px;
     background-position-y: 10px;
     border-radius: 33px;
 }
@@ -109,6 +113,7 @@ h2{
 form{
     display: flex;
     flex-direction: column;
+    top: -300px;
 }
 
 .wrapper{
